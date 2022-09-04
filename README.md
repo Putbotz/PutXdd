@@ -22,5 +22,5 @@
 [![kannachann](https://github.com/Putbotz.png?size=100)](http://github.com/kannachann)
 
 # ```Contributor 🔭```
-* [`The.Sad.Boy01`](https://github.com/Putbotz)
+* [`Put Beban`](https://github.com/Putbotz)
 <
