@@ -1,5 +1,5 @@
 // MADE BY BOCHILGAMING
-// RECODE BY KANNACHANN
+// RECODE BY PUTBOTZ
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-┏─── ⳹°❀❬ Sasyi ❭❀°
+┏─── ⳹°❀❬ 𝕻𝖚𝖙 𝕯𝖊𝖛 ❭❀°
 │✎ _Aktif Selama:_ ${mpt}
 │✎ _Jam:_ ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 │✎ _User:_ ${Object.keys(global.db.data.users).length}
