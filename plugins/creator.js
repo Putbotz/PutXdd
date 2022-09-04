@@ -24,7 +24,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 
 *ᴀɢᴇ:* 17ᵗʰ
 
-*ʙɪʀᴛʜᴅᴀʏ:* 16 jan 2006
+*ʙɪʀᴛʜᴅᴀʏ:* 16 jan 2005
 *ᴀᴅᴅʀᴇss:* Malaysia, Sabah, Lahad datu
 
 *- - sᴋɪʟʟs: - -* 
