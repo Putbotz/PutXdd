@@ -19,7 +19,7 @@
 * [`KannaChan`](http://github.com/kannachann)
 
 ## ```Recode By 🐾```
-[![kannachann](https://github.com/Putbotz.png?size=100)](http://github.com/kannachann)
+[![kannachann](https://github.com/Putbotz.png?size=100)](http://github.com/Putbotz)
 
 # ```Contributor 🔭```
 * [`Put Beban`](https://github.com/Putbotz)
