@@ -59,16 +59,16 @@ global.ppulsa2 = '081336990781'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '60147366955'
-global.nomorown = '60147366955'
-global.namebot = '𝕻𝖚𝖙 𝕯𝖊𝖛'
-global.nameown = '𝕻𝖚𝖙'
+global.nomorbot = '60163644714'
+global.nomorown = '60163644714'
+global.namebot = '𝕽𝖚𝖑 𝖉𝖊𝖛'
+global.nameown = '𝕽𝖚𝖑'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['60147366955'],
-  ['60147366955', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
+  ['60163644714'],
+  ['60163644714', '𝕽𝖚𝖑', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -113,12 +113,12 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝕻𝖚𝖙 𝕯𝖊𝖛 あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝕻𝖚𝖙 𝕯𝖊𝖛˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ 𝕻𝖚𝖙 𝕯𝖊𝖛'
+global.wm = '                「 𝕽𝖚𝖑 𝖉𝖊𝖛 あ⁩ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝕽𝖚𝖑 𝖉𝖊𝖛˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝕽𝖚𝖑 𝖉𝖊𝖛'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 ┊ 𝕻𝖚𝖙 𝕯𝖊𝖛 Whatsapp ʙᴏᴛ'
+global.titlebot = '🌱 ┊ 𝕽𝖚𝖑 𝖉𝖊𝖛 Whatsapp ʙᴏᴛ'
 global.author = global.wm
 
 
