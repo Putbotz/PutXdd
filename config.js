@@ -61,13 +61,13 @@ global.psaweria = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '60147366955'
 global.nomorown = '60147366955'
-global.namebot = 'SynnBOT'
+global.namebot = 'Kyzo'
 global.nameown = '𝕻𝖚𝖙'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['601139553146'],
+  ['0'],
   ['60147366955', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
