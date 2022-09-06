@@ -1,5 +1,5 @@
 ### ❗nama session
-put.data.json
+   put.data.json
 
 ### 📮 S&K
 1. Jangan diperjual belikan Script ini
