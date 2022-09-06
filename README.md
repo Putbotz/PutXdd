@@ -1,3 +1,6 @@
+### ❗nama session
+put.data.json
+
 ### 📮 S&K
 1. Jangan diperjual belikan Script ini
 2. Sebelum pakai jangan lupa kasih star
