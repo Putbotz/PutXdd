@@ -1,12 +1,13 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `
 ┌─「 Donasi • Pulsa 」
-│ • *Maxis*: 60147366955
-│ • *Umobile*: 601169466091
+│ • *Axis*: 083890585717
+│ • *Axis*: 083830815715
 ❏────
 
 ┌─「 Donasi • Non Pulsa 」
-│ • Tng eWallet : 601169466091 (WAN MOHAMAD ALIEFF PUTRA)
+│ • Dana : 085784914140
+│ • Group : https://chat.whatsapp.com/IL34QSFDRT7LyAWiicXpBp
 ❏────
 `
 const templateButtons = [
