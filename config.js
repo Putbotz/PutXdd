@@ -46,7 +46,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Wajib diisi ya kak!, kalo ga punya biarin aja, biar ada creditsnya :v
 global.sig = '_'
 global.sgh = '_'
-global.sgc = 'https://chat.whatsapp.com/IL34QSFDRT7LyAWiicXpBp'
+global.sgc = 'https://chat.whatsapp.com/HKUGfnEt6g1Ggxy3VWzRgN'
 global.sdc = "_"
 global.snh = 'https://nhentai.net/g/365296/'
 
@@ -61,7 +61,7 @@ global.psaweria = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '6283890585717'
 global.nomorown = '6283830815715'
-global.namebot = 'ꜱᴇɴʏᴀᴍɪᴋᴜᴍᴅ'
+global.namebot = '早坂ちゃん'
 global.nameown = '𝒁 𝑬 𝑹 𝑶'
 
 
@@ -113,19 +113,19 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ꜱᴇɴʏᴀᴍɪᴋᴜᴍᴅ あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ꜱᴇɴʏᴀᴍɪᴋᴜᴍᴅ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ꜱᴇɴʏᴀᴍɪᴋᴜᴍᴅ'
+global.wm = '                「 早坂ちゃん あ⁩ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘早坂ちゃん˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 早坂ちゃん'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 ꜱᴇɴʏᴀᴍɪᴋᴜᴍᴅ'
+global.titlebot = '🌱 早坂ちゃん'
 global.author = global.wm
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/fc0576de3ff0f73dbba4a.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/fc0576de3ff0f73dbba4a.jpg'
-global.thumbbc = 'https://telegra.ph/file/fc0576de3ff0f73dbba4a.jpg' //For broadcast
+global.thumb = 'https://telegra.ph/file/621110bf1d239608f5e46.jpg' //Main Thumbnail
+global.thumb2 = 'https://telegra.ph/file/621110bf1d239608f5e46.jpg'
+global.thumbbc = 'https://telegra.ph/file/621110bf1d239608f5e46.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/f510df6f477bac7247d1c.mp4'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
@@ -172,7 +172,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎Senyamiku-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎早坂ちゃん-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 
 global.multiplier = 999 // The higher, The harder levelup
 
