@@ -250,10 +250,10 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 `
 const listMessage = {
   text: tek,
-  footer: '© by ꜱᴇɴʏᴀᴍɪᴋᴜᴍᴅ',
+  footer: '© by 早坂ちゃん',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`,
+  buttonText: `LIST MENU ⎙`,
   sections
 }
   if (teks == '404') {
@@ -495,7 +495,7 @@ const listMessage = {
         //await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
         
     //------------------- BUTTON VID
-    //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/f510df6f477bac7247d1c.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/f510df6f477b ac7247d1c.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
