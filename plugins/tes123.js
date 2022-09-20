@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `kimak kau lah ╭∩╮(-_-)╭∩╮`
+let info = `JANGAN LAH TEKAN DUPPANG TELASO KAU `
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 /*const message = {
