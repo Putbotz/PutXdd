@@ -1,3 +1,4 @@
+//fix baileys kontol mmq anjing
 {
     "name": "Kanna BOT",
     "version": "2.10.18",
@@ -39,7 +40,7 @@
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "github:Jikarinka/baileys",
+        "@adiwajshing/baileys": "^4.4.0",
         "@bochilteam/scraper": "^2.0.0",
         "awesome-phonenumber": "^2.68.0",
         "axios": "^0.24.0",
