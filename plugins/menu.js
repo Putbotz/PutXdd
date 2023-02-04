@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-┏─── ⳹°❀❬ Yien ❭❀°
+┏─── ⳹°❀❬ Airy ❭❀°
 │✎ _Aktif Selama:_ ${mpt}
 │✎ _Jam:_ ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 │✎ _User:_ ${Object.keys(global.db.data.users).length}
