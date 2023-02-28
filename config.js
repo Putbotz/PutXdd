@@ -60,14 +60,14 @@ global.psaweria = '-'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '60147366955'
-global.nomorown = '60107601658'
+global.nomorown = '601169466091'
 global.namebot = 'HOSTING BOT BY PUT'
 global.nameown = '𝕻𝖚𝖙'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['60107601658'],
+  ['601169466091'],
   ['601169466091', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
