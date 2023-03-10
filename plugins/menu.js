@@ -250,7 +250,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 `
 const listMessage = {
   text: tek,
-  footer: '© by Anis',
+  footer: '© by Putbotz',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
