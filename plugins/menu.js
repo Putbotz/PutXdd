@@ -250,7 +250,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 `
 const listMessage = {
   text: tek,
-  footer: '© by Putbotz',
+  footer: '© by Tengku Shafiq',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
@@ -545,7 +545,7 @@ function ucapan() {
     res = "Good Afternoon ☀️"
   }
   if (time >= 15) {
-    res = "Good Afternoon 🌇"
+    res = "Good Evening 🌇"
   }
   if (time >= 18) {
     res = "Good Night 🌙"
