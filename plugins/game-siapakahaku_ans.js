@@ -15,7 +15,7 @@ handler.before = async function (m) {
             conn.sendButton(m.chat, `*Benar!*\n+${this.siapakahaku[id][2]} XP`, author, ['siapakahaku', '/siapakahaku'], m)
             clearTimeout(this.siapakahaku[id][3])
             delete this.siapakahaku[id]
-        } else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`*Dikit Lagi!*`)
+        } else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`*Sikit Lagi!*`)
         else m.reply(`*Salah!*`)
     }
     return !0
