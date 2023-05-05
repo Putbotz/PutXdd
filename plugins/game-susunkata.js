@@ -25,7 +25,7 @@ Limit: ${limit} Limit
         await conn.reply(m.chat, caption, m),
         json, money,
         setTimeout(() => {
-            if (conn.susunkata[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.susunkata[id][0])
+            if (conn.susunkata[id]) conn.reply(m.chat, `Waktu tamat!\nJawabannya adalah *${json.jawaban}*`, conn.susunkata[id][0])
             delete conn.susunkata[id]
         }, timeout)
     ]
