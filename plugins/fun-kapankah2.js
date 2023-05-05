@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command, text }) => conn.reply(m.chat, `
 *Pertanyaan:* ${command} ${text}
-*Jawaban:* ${(10).getRandom()} ${['saat', 'minit', 'jam', 'hari', 'minggu', 'bulan', 'tahun', 'dekade', 'abad'].getRandom()} lagi ...
+*Jawaban:* ${(10).getRandom()} ${['saat', 'minit', 'jam', 'hari', 'minggu', 'bulan', 'tahun', 'dekad', 'abad'].getRandom()} lagi ...
   `.trim(), m, m.mentionedJid ? {
   mentions: m.mentionedJid
 } : {})
