@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     conn.susunkata = conn.susunkata ? conn.susunkata : {}
     let id = m.chat
     if (id in conn.susunkata) {
-        conn.reply(m.chat, ' *ᴍᴀꜱɪʜ ᴀᴅᴀ ꜱᴏᴀʟ ʙᴇʟᴜᴍ ᴛᴇʀᴊᴀᴡᴀʙ ᴅɪ ᴄʜᴀᴛ ɪɴɪ!!* ', conn.susunkata[id][0])
+        conn.reply(m.chat, ' *Masih ada soalan belum dijawab disini !!* ', conn.susunkata[id][0])
         throw false
     }
     let src = await (await fetch('https://raw.githubusercontent.com/BochilTeam/database/master/games/susunkata.json')).json()
@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ${json.soal}
 
 Tipe : ${json.tipe}
-Timeout *${(timeout / 1000).toFixed(2)} detik*
+Timeout *${(timeout / 1000).toFixed(2)} saat*
 Ketik ${usedPrefix}suska untuk bantuan
 Bonus: ${money} Money
 Limit: ${limit} Limit
