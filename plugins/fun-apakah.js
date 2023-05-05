@@ -1,6 +1,6 @@
 let handler = async (m) => m.reply(`
 *Pertanyaan:* ${m.text}
-*Jawaban:* ${['Ya', 'Mungkin lah kot', 'Mungkin', 'Entah aku rasa tak', 'Tidak', 'Tak tahu la dekat dia'].getRandom()}
+*Jawaban:* ${['Ya', 'Mungkin iya', 'Mungkin', 'Mungkin tidak', 'Tidak', 'Tidak mungkin'].getRandom()}
   `.trim(), null, m.mentionedJid ? {
   mentions: m.mentionedJid
 } : {})
