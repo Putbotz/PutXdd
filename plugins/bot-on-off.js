@@ -6,12 +6,12 @@ let handler = async (m, { conn, usedPrefix, isAdmin, isOwner, text }) => {
 		switch (text) {
 			case 'off': {
 				global.db.data.chats[m.chat].isBanned = true
-				conn.reply(m.chat, '*_SUCCESSFULLY TURN OFF*_☑️', m, { contextInfo: { externalAdReply: {title: global.wm, body: 'ʙᴏᴛ ᴛᴇʟᴀʜ ᴅɪ ᴍᴀᴛɪᴋᴀɴ ᴜɴᴛᴜᴋ ɢʀᴏᴜᴘ ɪɴɪ', sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
+				conn.reply(m.chat, '*SUCCESSFULLY TURN OFF*☑️', m, { contextInfo: { externalAdReply: {title: global.wm, body: 'ʙᴏᴛ ᴛᴇʟᴀʜ ᴅɪ ᴍᴀᴛɪᴋᴀɴ ᴜɴᴛᴜᴋ ɢʀᴏᴜᴘ ɪɴɪ', sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
 }
 				break
 			case 'on': {
 				global.db.data.chats[m.chat].isBanned = false
-				conn.reply(m.chat, '*_SUCCESSFULLY TURN ON*_☑️', m, { contextInfo: { externalAdReply: {title: global.wm, body: 'ʙᴏᴛ ᴛᴇʟᴀʜ ᴅɪ ɴʏᴀʟᴀᴋᴀɴ ᴜɴᴛᴜᴋ ɢʀᴏᴜᴘ ɪɴɪ', sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
+				conn.reply(m.chat, '*SUCCESSFULLY TURN ON*☑️', m, { contextInfo: { externalAdReply: {title: global.wm, body: 'ʙᴏᴛ ᴛᴇʟᴀʜ ᴅɪ ɴʏᴀʟᴀᴋᴀɴ ᴜɴᴛᴜᴋ ɢʀᴏᴜᴘ ɪɴɪ', sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
 }
 				break
 			default: {
