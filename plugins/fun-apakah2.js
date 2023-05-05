@@ -1,12 +1,13 @@
-let handler = async (m, { command, text }) => m.reply(`
-*Pertanyaan:* ${command} ${text}
-*Jawaban:* ${['Ya', 'Mungkin iya', 'Mungkin', 'Mungkin tidak', 'Tidak', 'Tidak mungkin''Betul ah tu','Haah betul la','Mana aku tau dia'].getRandom()}
+let handler = async (m) => m.reply(`
+*Pertanyaan:* ${m.text}
+*Jawaban:* ${['Ya', 'Mungkin lah kot', 'Mungkin', 'Entah aku rasa tak', 'Tidak', 'Tak tahu la dekat dia'].getRandom()}
   `.trim(), null, m.mentionedJid ? {
   mentions: m.mentionedJid
 } : {})
 
 handler.help = ['apakah <teks>?']
 handler.tags = ['kerang', 'fun']
+handler.customPrefix = /(\?$)/
 handler.command = /^apakah$/i
 
 export default handler
