@@ -12,18 +12,18 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 📮 *Note:*
 • Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• Owner berhak block tanpa alasan
+• Boraklah pasal benda yang sopan & jangan spam
+• Owner hanya merespon yang berkaitan dengan BOT
+• No owner : +60 14-926 8602
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*ɴᴀᴍᴇ:* 𝕻𝖚𝖙
-*ᴀɢᴇ:* 15ᵗʰ
+*ɴᴀᴍᴇ:* TENGKU SHAFIQ
+*ᴀɢᴇ:* 20ᵗʰ
 
-*ʙɪʀᴛʜᴅᴀʏ:* 1 feb 2007
+*ʙɪʀᴛʜᴅᴀʏ:* 05 JULY 2003
 *ᴀᴅᴅʀᴇss:* Indonesia, Jawa Barat, Bandung
 
 *- - sᴋɪʟʟs: - -* 
