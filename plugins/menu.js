@@ -19,8 +19,8 @@ const defaultMenu = {
 │✎ Level *%level (%exp / %maxexp)* [%xp4levelup]
 │✎ %totalexp XP secara Total
 │ 
-│✎ Tanggal: *%date*
-│✎ Tanggal Islam: *%dateIslamic*
+│✎ Tarikh: *%date*
+│✎ Tarikh Islam: *%dateIslamic*
 │✎ Waktu: *%time*
 │
 │✎ Uptime: %muptime
@@ -536,8 +536,8 @@ function clockStringP(ms) {
   return [ye, ' *Years 🗓️*\n',  mo, ' *Month 🌙*\n', d, ' *Days ☀️*\n', h, ' *Hours 🕐*\n', m, ' *Minute ⏰*\n', s, ' *Second ⏱️*'].map(v => v.toString().padStart(2, 0)).join('')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Selamat DiniHari ☀️"
+  const time = moment.tz('Asia/MALAYSIA').format('HH')
+  let res = "Selamat Datang ☀️"
   if (time >= 4) {
     res = "Good Morning 🌄"
   }
