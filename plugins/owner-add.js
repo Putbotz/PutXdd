@@ -36,7 +36,7 @@ let handler = async (m, { conn, text, participants }) => {
         const content = getBinaryNodeChild(user, 'add_request')
         const invite_code = content.attrs.code
         const invite_code_exp = content.attrs.expiration
-        let teks = `Mengundang @${jid.split('@')[0]} menggunakan invite...`
+        let teks = `Mengundang @${jid.split('@')[0]} menggunakan link invite...`
         m.reply(teks, null, {
             mentions: conn.parseMention(teks)
         })
