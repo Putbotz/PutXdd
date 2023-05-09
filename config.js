@@ -67,8 +67,8 @@ global.nameown = 'Tengku Shafiq'
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['601169466091'],
-  ['601169466091', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
+  ['60149268602'],
+  ['60149268602', '𝕻𝖚𝖙 𝕯𝖊𝖛', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
