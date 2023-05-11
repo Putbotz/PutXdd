@@ -14,7 +14,7 @@ const defaultMenu = {
 ┌── ⳹°❀❬ %me ❭❀°
 │✎ Hai, %name!
 │
-│✎ Tersisa *%limit Limit*
+│✎ Berbaki *%limit Limit*
 │✎ Role *%role*
 │✎ Level *%level (%exp / %maxexp)* [%xp4levelup]
 │✎ %totalexp XP secara Total
